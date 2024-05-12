@@ -7,6 +7,11 @@ void setup()
 {
   Serial.begin(115200);
   nn = new NeuralNetwork();
+  Serial.println("Machine Started");
+  delay(1000);
+  Serial.println("Wifi Connected...");
+  delay(1000);
+  Serial.println("Server Connect With https://smte.amarfuel.com/");
 }
 
 void loop()
